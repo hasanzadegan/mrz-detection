@@ -29,6 +29,10 @@ image-name,MRZ-LINE-1,MRZ-LINE-2,MRZ-LINE-3
 * image-name is the filename of the original image without extension
 * MRZ-LINE-x are each line of the MRZ (two or three lines)
 
+  ### api
+  copy mrz.traineddata in 
+  `node run/mrzApi.js' and load data 
+
 ## License
 
 [MIT](./LICENSE)
